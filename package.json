@@ -4,7 +4,9 @@
   "description": "practical js",
   "main": "index.js",
   "scripts": {
-    "test": "ok"
+    "test": "ok",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -33,7 +35,10 @@
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.4",
+    "mocha": "*",
+    "net": "^1.0.2",
     "node-sass": "^4.5.3",
+    "nodemon": "^1.11.0",
     "sass-loader": "^6.0.5",
     "style-loader": "^0.18.1",
     "webpack": "^2.6.1",
