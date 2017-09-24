@@ -1,5 +1,5 @@
-//Quint test
-//Quint Primer module() , ok() , equal()
+//Qunit test
+//Qunit Primer module() , ok() , equal()
 
 //1. Indentation
 //2. semicolons
