@@ -1,0 +1,38 @@
+//Building Restful APIs
+
+//The underlying protocol for REST is  HTTP
+the key elements are :
+1.Resources
+2.Request Verb
+3.Request headers -authorization details
+4. Response body
+5.request body
+
+//cache
+when client ask same request again
+The cache is a concept implemented on the client to store requests which have already been sent to the server. So if the same request is given by the client, instead of going to the server, it would go to the cache and get the required information. This saves the amount of to and fro network traffic from the client to the server.
+
+//Middlkeware -layer
+The middleware layer is where all the business logic is created. This can be an extra service created with which the client could interact with before it makes a call to the web service.
+
+https://www.codementor.io/olatundegaruba/nodejs-restful-apis-in-10-minutes-q0sgsfhbd
+
+node js and MongoDB
+
+//HATEOAS
+
+//SIREN RESOURCE
+https://www.npmjs.com/package/siren-resource
+
+
+//Tips for building high speed API
+
+1. store all commonly viewed resources and queries in an  in-memory cache . Consider REDis or MEMcached
+2. Index keys for searching and filtering.
+3. Limit access queries that rquires time
+3. Avoid unnecessary network calls
+3. Always avoid blocking use asnchronous req and res
+4. Take advantage of load balancing to spread the load across multiple CPU
+(HAproxy handles better)
+5. offload all static sites to CDN
+6 .Use hypermedia as the engine of application state
